@@ -1,28 +1,29 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import SubscribeForm from "../components/SubscribeForm"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["AUTO", "WEBP", "AVIF"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
+    <Seo title="Mefiye London" />
+    <div className="container">
+      <div className="row">
+        <div className="col-12"><h1>Mefiye London</h1></div>
+      </div>
+      <div className="row">
+        <div className="col-12 col-md-6">
+          <p>"Mefiye" (pronouced meh. fyeh): a play on the term for "home" in the Asante Twi language native to Ghana</p>
+          <p>For us, #Mefiye means sancatuary, luxury and warmth. With our collection of affordable luxury home fragrances and goods, we want to bring a piece of that feeling to you, too.</p>
+        </div>
+        <div className="col-12 col-md-6"><SubscribeForm/></div>
+      </div>
+
+    </div>
+
+
   </Layout>
 )
 
