@@ -15,7 +15,7 @@ const IndexPage = () => (
       </div>
       <div className="row align-item-center justify-content-center">
         <div className="col-12 col-md-6">
-          <p>"Mefiye" (pronouced meh&#9679;fyeh): a play on the term for "home" in the Asante Twi language native to Ghana.</p>
+          <p className="text-align-center">"Mefiye" (pronouced meh&#9679;fyeh): a play on the term for "home" in the Asante Twi language native to Ghana.</p>
           <p>For us, <Link to="https://www.instagram.com/explore/tags/mefiyemeans/" target="_blank">#mefiyemeans</Link> sanctuary, luxury and self-care. With our collection of affordable luxury home fragrances and goods, we want to bring a piece of that feeling to you, too.</p>
         </div>
         <div className="col-12 col-md-6">
