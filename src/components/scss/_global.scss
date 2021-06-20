@@ -18,11 +18,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 10px;
 }
 h1 {
-    font-size: 1.55rem;
+    font-size: 1.5rem;
     line-height: 44px;
     margin-top: 0px;
     margin-bottom: 0;
-    letter-spacing: 10px;
+    letter-spacing: 6px;
     word-spacing: 10px;
 }
 a{
@@ -30,7 +30,7 @@ a{
     text-decoration: underline;
     font-weight: bold;
     &.social-icons {
-        margin: 15px 5px;
+        margin: 15px;
     }
 }
 .page-content{
@@ -111,13 +111,16 @@ a{
 }
 
 .subscribe-form{
+    text-align: center;
     .message{
-        color: orange;
+        color: #FE3000;
         margin: 0 0 20px;
+        text-align: center;
     }
     .form-row-group{
         display: flex;
         margin: 0 -10px 20px;
+        text-align: left;
         .form-row{
             width: 100%;
             padding: 0 10px;
@@ -132,6 +135,10 @@ a{
                 color: $white;
                 padding: 10px 5px;
                 border-radius: 5px;
+                &:focus::placeholder {
+                    color: transparent;
+                  }
+                  
             }
             ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
                 color: $white;
@@ -145,6 +152,13 @@ a{
               ::-ms-input-placeholder { /* Microsoft Edge */
                 color: $white;
               }
+              input:focus::placeholder {
+                color: transparent;
+              }
+              input:focus::-webkit-input-placeholder { color:transparent; }
+            input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+            input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+            input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
         }
     }
     button{
