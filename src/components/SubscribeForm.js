@@ -24,7 +24,7 @@ export default class SubscribeForm extends React.Component {
     render() {
         return (
             <form name="subscribeForm" method="POST" id="subscribe-form" className="subscribe-form" onSubmit={this.handleSubmit}>
-                <div className="form-row-group"><div className="message" dangerouslySetInnerHTML={{ __html: this.state.message}} /></div>
+                <div className="message" dangerouslySetInnerHTML={{ __html: this.state.message}} />
                 <div className="form-row-group">
                     <div className="form-row col">
                         <label>
@@ -61,7 +61,7 @@ export default class SubscribeForm extends React.Component {
                                 className="subscribe-email"
                                 type="email"
                                 name="email"
-                                placeholder="Enter Email Address..."
+                                placeholder="joe@smith.com"
                                 value={this.state.email}
                                 onChange={this.handleInputChange}
                             />
