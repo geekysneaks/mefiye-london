@@ -6,7 +6,7 @@ body{
     background-color: $black;
     color: $white;
     line-height: 1.5rem;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     text-align: justify;
 }
 input{
@@ -21,7 +21,7 @@ h1 {
     font-size: 38px;
     line-height: 44px;
     margin-top: 0px;
-    margin-bottom: 30px;;
+    margin-bottom: 0;
     letter-spacing: 10px;
     word-spacing: 10px;
 }
@@ -29,6 +29,9 @@ a{
     color: $white;
     text-decoration: underline;
     font-weight: bold;
+    &.social-icons {
+        margin: 15px 5px;
+    }
 }
 .page-content{
     max-width: $max-document-width;
@@ -55,13 +58,20 @@ a{
     display: flex;
     
     flex-wrap: wrap;
+    margin-bottom: 30px;
     @media (min-width: 1024px){
     margin-right: -20px;
     margin-left: -20px;
-    flex-wrap: nowrap;
+    // flex-wrap: nowrap;
     flex-direction: row;
     }
 
+}
+.align-item-center{
+    align-items: center !important;
+}
+.justify-content-center{
+    justify-content: center !important;
 }
 [class*=col-]{
     position: relative;
