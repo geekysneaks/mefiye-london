@@ -37,7 +37,7 @@ export default class SubscribeForm extends React.Component {
                             className="subscribe-name form-control"
                             type="text"
                             name="fname"
-                            placeholder="Joe"
+                            placeholder="Joy"
                             value={this.state.fname}
                             onChange={this.handleInputChange}
                         />
@@ -67,7 +67,7 @@ export default class SubscribeForm extends React.Component {
                             className="subscribe-email form-control"
                             type="email"
                             name="email"
-                            placeholder="joe@smith.com"
+                            placeholder="joy@smith.com"
                             value={this.state.email}
                             onChange={this.handleInputChange}
                         />
