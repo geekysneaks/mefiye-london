@@ -15,7 +15,7 @@ const IndexPage = () => (
       </div>
       <div className="row align-item-center justify-content-center">
         <div className="col-12 col-md-6">
-          <p className="text-align-center">"Mefiye" (pronouced meh<span className="dot">&#9679;</span>fyeh): a play on the term for "home" in the Asante Twi language native to Ghana.</p>
+          <p className="text-align-center">"Mefiye" (pronouced meh<span className="dot">&#9679;</span>fyeh) - a play on the term for "home" in the Asante Twi language native to Ghana.</p>
           <p className="text-align-center">For us, <Link to="https://www.instagram.com/explore/tags/mefiyemeans/" target="_blank">#mefiyemeans</Link> sanctuary, luxury and self-care. With our collection of affordable luxury home fragrances and goods, we want to bring a piece of that feeling to you, too.</p>
         </div>
         <div className="col-12 col-md-6">
@@ -23,14 +23,14 @@ const IndexPage = () => (
           <SubscribeForm/>
         </div>
       </div>
-      <div className="row align-item-center justify-content-center">
-      <Link className="social-icons" to="https://www.instagram.com/mefiyelondon/" target="_blank">
-        <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" />
-      </Link>
-      
-      <Link className="social-icons" to="https://twitter.com/MEFIYELONDON" target="_blank">
-        <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
-      </Link>
+      <div className="row align-item-center justify-content-center flex-direction-row">
+        <Link className="social-icons" to="https://www.instagram.com/mefiyelondon/" target="_blank">
+          <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" />
+        </Link>
+        
+        <Link className="social-icons" to="https://twitter.com/MEFIYELONDON" target="_blank">
+          <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
+        </Link>
       </div>
 
     </div>
