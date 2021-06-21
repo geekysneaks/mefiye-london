@@ -35,7 +35,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Questrial`
+          `Questrial`,
+          `Montserrat`,
+          `Prompt`,
+          `Josefin Sans`
         ],
         display: 'swap'
       }
