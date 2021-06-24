@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Mefiye London`,
+    title: `Mefiye`,
     description: `Affordable luxuries for you and the spaces you call home.`,
     author: `@folaju`,
   },

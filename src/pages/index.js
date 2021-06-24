@@ -8,10 +8,10 @@ import SubscribeForm from "../components/SubscribeForm"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Mefiye London" />
+    <Seo title="Mefiye" />
     <div className="container">
       <div className="row align-item-center justify-content-center">
-        <div className="col-12"><h1>Mefiye London</h1></div>
+        <div className="col-12"><h1>Mefiye</h1></div>
       </div>
       <div className="row align-item-center justify-content-center">
         <div className="col-12 col-md-6">
