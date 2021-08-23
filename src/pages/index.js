@@ -35,7 +35,7 @@ const IndexPage = () => (
         </Link>
       </div>
       <div className="row align-item-center justify-content-center flex-direction-row terms">
-        <p>(c) 2021 | MEFIYE</p>
+        <p>&copy; 2021 | MEFIYE</p>
       </div>
 
     </div>
