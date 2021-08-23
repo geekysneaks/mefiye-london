@@ -29,21 +29,21 @@ export default class SubscribeForm extends React.Component {
                 
                 <div className={`message ${this.state.result}`} dangerouslySetInnerHTML={{ __html: this.state.message}} />
                 <div className="form-row-group">
-                    <div className="form-row col-md-6">
-                        <label>
+                    <div className="form-row col-md-12">
+                        {/* <label>
                             <span className="screen-reader-text">First Name</span>                        
-                        </label>
+                        </label> */}
                         <input
                             className="subscribe-name form-control"
                             type="text"
                             name="fname"
-                            placeholder="Joy"
+                            placeholder="First Name"
                             value={this.state.fname}
                             onChange={this.handleInputChange}
                         />
 
                     </div>
-                    <div className="form-row col-md-6">
+                    {/* <div className="form-row col-md-6">
                         <label>
                             <span className="screen-reader-text">Last Name</span>                        
                         </label>
@@ -51,23 +51,23 @@ export default class SubscribeForm extends React.Component {
                             className="subscribe-name form-control"
                             type="text"
                             name="lname"
-                            placeholder="Smith"
+                            placeholder="Last Name"
                             value={this.state.lname}
                             onChange={this.handleInputChange}
                         />
 
-                    </div>
+                    </div> */}
                 </div>
                 <div className="form-row-group">
                     <div className="form-row col-12">
-                        <label>
+                        {/* <label>
                             <span className="screen-reader-text">Email address</span>                        
-                        </label>
+                        </label> */}
                         <input
                             className="subscribe-email form-control"
                             type="email"
                             name="email"
-                            placeholder="joy@smith.com"
+                            placeholder="Email Address"
                             value={this.state.email}
                             onChange={this.handleInputChange}
                         />
