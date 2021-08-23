@@ -38,7 +38,7 @@ module.exports = {
           `Questrial`,
           `Montserrat`,
           `Prompt`,
-          `Josefin Sans`
+          `Josefin Sans\:300,400`
         ],
         display: 'swap'
       }

@@ -15,7 +15,7 @@ const IndexPage = () => (
       </div>
       <div className="row align-item-center justify-content-center">
         <div className="col-12 col-md-8">
-          <p className="text-align-center">MEFIYE (pronouced meh<span className="dot">&#9679;</span>fyeh) - a play on the term for home in the Asante Twi language native to Ghana.</p>
+          <p className="text-align-center">MEFIYE (pronouced meh-fi-ay) - a play on the term for home in the Asante Twi language native to Ghana.</p>
           <p className="text-align-center">For us, MEFIYE means sanctuary, luxury and self-care. With our collection of affordable luxury home goods, we want to bring a piece of that feeling to you, too.</p>
         </div>
         <div className="col-12 col-md-6">
@@ -23,7 +23,7 @@ const IndexPage = () => (
           <SubscribeForm/>
         </div>
       </div>
-      <div className="row align-item-center justify-content-center flex-direction-row">
+      <div className="row align-item-center justify-content-center flex-direction-row social-icon">
         <Link className="social-icons" to="https://www.instagram.com/mefiyelondon/" target="_blank">
           {/* <FontAwesomeIcon icon={['fab', 'instagram']} size="2x" /> */}
           <p>Instagram</p>
@@ -33,6 +33,9 @@ const IndexPage = () => (
           {/* <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" /> */}
           <p>Twitter</p>
         </Link>
+      </div>
+      <div className="row align-item-center justify-content-center flex-direction-row terms">
+        <p>(c) 2021 | MEFIYE</p>
       </div>
 
     </div>
